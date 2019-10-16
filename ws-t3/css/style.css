@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo {
+    float: left;
+}
+
+.menu_icon {
+    float: right;
+    margin: 35px 0;
+    font-size: 20px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    padding: 33px 30px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav>ul>li>a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.sub_bar {
+    float: none;
+    padding: 0;
+}
+
+.nav_visible_sm {
+    list-style: none;
+    padding: 11px;
+    float: none;
+    text-align: center;
+}
+
+.nav_visible_sm a {
+    text-decoration: none;
+    color: #000;
+}
+
+.collapse:hover {
+    display: block;
+}
+
+.banner {
+    background-image: url("../image/Banner.png");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+    
+.banner_box {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.34);
+    height: 100%;
+}
+
+.wabsites_hosting {
+    background-color: rgba(183, 8, 8, 0.72);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+    margin-top: 200px;
+    height: 298px;
+    -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.65);
+    box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.65);
+
+}
+
+.banner_but{
+    max-width: 125px;
+    background: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.banner_but>a {
+    color: #990c0c;
+     text-decoration: none;
+}
+
+
+.wabsites_hosting>p {
+    color: #fff; 
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.seo_local {
+    background-color: rgba(23, 40, 109, 0.72);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+    margin-top: 200px;
+    height: 298px;
+    -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.65);
+    box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.65);
+}
+
+.banner_but_1{
+    width: 125px;
+    background: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.banner_but_1>a {
+    color: #142158;
+    text-decoration: none;
+}
+
+.seo_local>p {
+    color: #fff; 
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.Our_Services {
+    background: #20295f;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.our {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+}
+
+.service_but {
+    max-width: 110px;
+    background-color: transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+.service_but>a {
+    color: #fff;
+     text-decoration: none;
+}
+
+.icon_seo {
+    text-align: center;
+}
+
+.heading_1 {
+    color: #6aa6ff;
+    text-align: center;
+}
+
+.icon_seo_p {
+    text-align: center;
+    color: #fff;
+}
+
+.Our_2 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.icon_seo_p_1 {
+    text-align: center;
+    color: #fff;
+    max-width: 262px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.card_1 {
+    background-image: url("../image/Card_1.png");
+    height: 250px;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.question {
+    width: 100%;
+    float: right;
+    background: #a01212;
+    height: 250px;
+    opacity: .8;
+}
+
+.content {
+    background-image: url("../image/Icon/Help.png");
+    background-repeat: no-repeat;
+    margin-left: 45px;
+    margin-top: 70px;
+}
+
+.tools {
+    width: 100%;
+    float: left;
+    background: #4ea231;
+    height: 250px;
+    opacity: .8;
+}
+
+.free_icon {
+    float: right;
+}
+
+.heading_2 {
+    color: #fff;
+    text-align: left;
+    margin-left: 28%;
+}
+
+.list_1 {
+    width: 40%;
+    float: left;
+}
+
+.list_1 ul {
+    margin-left: 25px;
+}
+
+.list_1 li {
+    padding-top: 22px;
+    color: #fff;
+}
+
+.list_1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list_2 {
+    width: 60%;
+    float: right;
+}
+
+.list_2 ul {
+    float: right;
+    margin-top: -66px;
+}
+
+.list_2 li {
+    color: #fff;
+    padding-top: 22px;
+}
+
+.list_2 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading_main {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    color: #143156;
+}
+
+.label_but {
+    background: #3b9c44;
+    max-width: 300px;
+    padding: 6px 12px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.label_but>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading_3 {
+    text-align: center;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.comment {
+    background-image: url("../image/Shaps.png");
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+}
+
+blockquote {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    font-size: 18px;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    border-left: none;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 140px;
+    position: absolute;
+    left: -51px;
+    top: -16px;
+    color: #294c78;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+
+.image_man {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #000;
+    margin: auto;
+    display: block;
+}
+
+.footer_para {
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer {
+    background: #252525;
+}
+
+.list_footer_1 {
+    float: left;
+}
+
+.list_footer_1 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.list_footer_1 li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.list_footer_1 li a {
+    color: #fff;
+}
+
+.list_footer_2 {
+    float: right;
+}
+
+
+.list_footer_2 ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.list_footer_2 li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.list_footer_2 li a {
+    color: #fff;
+}
+
+.face {
+    font-size:  17px !important;
+    color: #fff;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2b92e9;
+    float: left;
+    margin: 5px;
+}
+
+.twitter {
+     width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #4a4d8a;
+    float: left;
+    margin: 5px;
+}
+
+.linkedin {
+     width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e62b21;
+    float: left;
+    margin: 5px;
+}
+
+.google {
+     width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2c64ac;
+    float: left;
+    margin: 5px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    background: #252525;
+    color: #b9b8b8;
+    padding: 10px;
+    font-size: 14px;
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    
+    .icon_seo_p_1 {
+        max-width: 206px;
+    }
+   
+    .list_1 ul {
+        padding: 0;
+    }
+    
+    .list_2 li {
+        
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    
+    .logo {
+        margin-top: 10px;
+    }
+    
+    .wabsites_hosting {
+        margin-top: 160px;
+        height: initial;
+    }
+    
+     .seo_local {
+        margin-top: 50px;
+        height: initial;
+    }
+    
+    .service_but {
+        margin-bottom: 60px;
+    }
+    
+    .icon_seo_p_1 {
+        max-width: inherit;
+    } 
+    
+    .free_icon {
+        width: 22%;
+    }
+    
+    .heading_3 {
+        margin-left: 60px;
+    }
+    
+    .list_1 {
+        width: 50%;
+        margin-top: 12px;
+    }
+    
+    .list_1 ul {
+        padding: 0;
+        margin-left: 23px;
+    }
+    
+    .list_1 li {
+        padding-top: 13px;
+    }
+    
+    .list_2 {
+        width: 45%;
+    }
+    
+    .list_2 ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .list_2 li {
+        padding-top: 13px;
+        margin:0;
+    }
+    
+    .content {
+        margin-left: 26px;
+        margin-top: 60px;
+        background-image: url("../image/Icon/Help%20small.png");
+    }
+    
+    .social_icon_footer {
+        text-align: center;
+        margin: auto;
+        display: block;
+        max-width: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .footer_para {
+        text-align: center;
+    }
+    
+    .list_footer {
+        margin: auto;
+        display: block;
+        max-width: 50%;
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:300px) and (max-width:767px){
+    
+    .navbar-fixed-top{
+        position: static !important;
+        margin: 0;
+    }
+    
+    .logo {
+        margin-top: 10px;
+    }
+    
+    .wabsites_hosting {
+        margin-top: 110px;
+        height: initial;
+    }
+    
+     .seo_local {
+        margin-top: 60px;
+        height: initial;
+    }
+    
+    .Our_Services {
+        padding-bottom: 40px;
+    }
+    
+    .service_but {
+        margin-bottom: 60px;
+    }
+    
+    blockquote:before {
+        font-size: 60px;
+        left: -22px;
+        top: 44px;
+    }
+    
+    .icon_seo_p_1 {
+        max-width: inherit;
+    }
+    
+    .social_icon_footer {
+        text-align: center;
+        margin: auto;
+        display: block;
+        max-width: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .footer_para {
+        text-align: center;
+    }
+    
+    .list_footer {
+        max-width: fit-content;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .list_footer_1 {
+        float: none;
+    }
+    
+    .list_footer_2 {
+        float: none;
+    }
+    
+    .list_footer_2 ul {
+        float: none;
+        padding: 0;
+    }
+    
+    blockquote {
+        width: inherit;
+    }
+}
