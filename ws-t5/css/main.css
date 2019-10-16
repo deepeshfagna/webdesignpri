@@ -1,0 +1,791 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: open sans !important;
+    overflow-x: hidden;
+}
+
+.margin100{
+    height: 100px;
+    width: 100%;
+}
+
+.margin50{
+    height: 50px;
+    width: 100%;
+}
+
+#banner{
+    background: url(../images/banner.jpg)no-repeat center;
+    background-size: cover;
+    
+}
+
+.black-layer{
+    background-color: rgba(0,0,0,0.6);
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.black-layer h1{
+    font-size: 42px;
+    color: #e41a1a;
+}
+
+.black-layer p{
+    color: #fff;
+    margin: 50px 0;
+}
+
+.black-layer a{
+    background-color: #e41a1a;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.black-layer a:hover{
+    text-decoration: none !important;
+    background-color: #c32121 !important;
+    transition: 0.3s !important;
+}
+
+.live-chat-btn{
+    background-color: #fee501;
+    color: #e41a1a !important;
+    padding: 10px 20px;
+    float: right;
+    padding-bottom: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 
+}
+
+#upcoming-events{
+    background-color: #e41a1a;
+}
+
+#upcoming-events h1{
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+}
+
+.hr-line{
+    background-color: #fff;
+    height: 2px;
+    margin: 20px auto;
+    width: 150px; 
+}
+
+.event-box{
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom:70px;
+}
+
+.event-box h3{
+    font-size: 36px;
+    color: #e41a1a;   
+    text-align: left !important;
+}
+
+.event-box hr{
+    border-bottom: 1px solid #e41a1a;
+}
+
+.event-box p{
+    margin: 50px 0;
+    text-align: left !important;
+}
+
+.event-box a{
+    border: 1px solid #000;
+    padding: 10px 20px;
+    color: #000 !important;
+}
+
+.event-box a:hover{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff !important;
+    transition: 1s;
+}
+
+.event-box{
+    text-align: center;
+    display: block;
+}
+
+#live-twitter{
+    background: url(../images/LiveTwitterBg.jpg);    
+}
+
+#live-twitter h1{
+    color: #fee501;
+    text-align: center;
+    font-size: 42px;
+}
+
+#live-twitter .hr-line{
+    background-color: #fee501;
+}
+
+
+.tweet-box{
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.tweet-box img{
+    width: 100%;
+}
+
+.tweet-box h3{
+    font-size: 36px;
+    color: #e41a1a;   
+    text-align: left !important;
+}
+
+
+
+.tweet-box p{
+    font-size: 14px;
+    color: #959595;
+    text-align: left;
+}
+
+.tweet-address{
+    text-align: left !important;
+    color: #000 !important;
+    font-weight: 700;
+
+}
+
+.tweet-box a:hover{
+    text-decoration: none;
+}
+
+.tweet-content{
+    float: right;
+    max-width: 80%;
+    margin: 20px 0 0;
+
+}
+
+.profile-pic{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #0054a7;
+    margin: 20px 0 0;
+    float: left;    
+}
+
+.tweet-time{
+    font-size: 12px !important;
+    text-align: right !important;
+}
+
+.follow-btn{
+    background-color: #0054a7;
+    color: #fff !important;
+    padding: 5px 20px;
+    border-radius: 16px;
+}
+
+ul{
+    padding: 0;
+    margin: 0 !important;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+footer{
+    background-color: #0153a6;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover{
+    color: #073869;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer li{
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer li i{
+    font-size: 20px !important;
+    color:  #ffe400;
+    padding-right: 10px;
+}
+
+.social-icons a:hover{
+    color: #fff !important;
+}
+
+.social-icons a{
+    color: #ffe400 !important; 
+}
+
+.social-icons li{
+    font-size: 20px !important;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+}
+
+footer p{
+    color: #629bd4;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-list-head {
+    width: 100%;
+    position: relative;
+    color: #ffe400;
+    font-size: 20px !important;
+}
+
+
+.footer-list-head::after {
+    content: '';
+    width: 35%;
+    margin-left: 10px;
+    border-bottom: solid 1px #ffe400;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+a{
+    color: inherit;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+}
+
+/*------------------------------------------------------------
+                            nav-left
+------------------------------------------------------------*/
+
+
+.nav-left{
+    position: fixed;
+    top: 30%;
+    z-index: 1000;
+
+}
+.home{
+    background-color: #fff !important;
+    border: none !important;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-left>ul>li{
+    width: 200px;
+    background-color: rgba(255, 228, 0, 0.9);
+    padding: 10px;
+    border-top:  1px solid #9c9125;
+}
+
+.social-circle li {
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 0 !important;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(228, 26, 26, 0.7);
+    border: none !important;
+}
+
+.social-circle li:hover{
+    background-color: rgba(228, 26, 26, 0.7) !important;
+}
+
+.nav-left>ul>li>a{
+    color: #e41a1a;
+    font-weight: 700;
+}
+
+.nav-left>ul>li:hover{
+    background-color: #fff;
+}
+.nav-left>ul>li:hover .subnav-left{
+    display: block;
+    transition: 1s;
+}
+
+.subnav-left{
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: #f7f7f7;
+    left: 200px;
+    top: 0;
+    height: 374px;
+
+}
+
+.subnav-left>li{
+    padding:10px;
+    color: #0153a6;
+}
+
+.subnav-left>li>a{
+    color: inherit;
+}
+
+.subnav-left>li:hover{
+    background-color: #fff;
+    color: #e41a1a;
+}
+
+.subnav-left>li>a:hover{
+    color: #e41a1a;
+}
+
+
+.subnav-left>li:hover .sub-sub-nav-left{
+display: block;
+}
+
+
+.sub-sub-nav-left{
+    background-color: #fff;
+    width:200px;
+    height: 100%;
+    top: 0;
+    left: 200px;
+    position: absolute;
+    display: none;
+}
+
+.sub-sub-nav-left>li{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.sub-sub-nav-left>li>a{
+    color: #3d3d3d;
+}
+
+.sub-sub-nav-left>li>a:hover{
+    color: #e41a1a;
+}
+
+.sub-sub-nav-left>li>a:hover .subnav-left>li{
+    color: #e41a1a !important;
+}
+/*------------------------------------------------------------
+                            nav
+------------------------------------------------------------*/
+
+.logo{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+nav{
+    background-color:rgba(255, 228, 0, 0.9);
+    padding: 20px;
+}
+
+nav h4{
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+nav h4 a {
+color: #000 !important;
+}
+
+nav h6{
+    margin: 0;
+    line-height: inherit;
+    color: #e41a1a;
+    padding-bottom: 5px;
+}
+
+nav h6:hover{
+    color: #e41a1a;
+    background-color: #fff;
+
+}
+
+nav h6 a{
+    color: #e41a1a !important;
+
+}
+
+nav a{
+    color: inherit;
+}
+
+
+.subnav{
+    background-color: #f7f7f7;
+}
+
+.subnav li a{
+    color: inherit;
+}
+
+.subnav li{
+    padding: 5px 10px;
+    color: #0153a6;
+}
+
+
+.subnav li:hover{
+    color: #e41a1a;
+    background-color: #fff;
+}
+
+/*------------------------------------------------------------
+                        media queries
+------------------------------------------------------------*/
+
+
+@media (max-width:767px){
+    .black-layer{
+        padding: 50px 0;
+    }
+    
+    .tweet-content{
+        float: none;
+    }
+    
+    .profile-pic{
+        float: none;
+    }
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                       steps page
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.black-layer-2{
+    background-color: rgba(0,0,0,0.6);
+    padding: 50px 20px;
+}
+
+.black-layer-2 h1{
+    font-size: 42px;
+    color: #e41a1a;
+}
+
+.black-layer-2 p{
+    color: #000;
+    margin: 40px 0 0;
+}
+
+.black-layer-2 hr{
+    border-color: #e41a1a;
+}
+
+.step-box{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.step-box img{
+    max-width: 40%;
+    float: left;
+    
+}
+
+.step-content{
+    float: left;
+    max-width: 55%;
+    margin-left: 5%;
+}
+
+
+/*------------------------------------------------------------
+                        media queries
+------------------------------------------------------------*/
+
+
+@media (max-width:991px){
+.step-box img{
+    min-width: 100% !important;
+    float: none;
+    
+}
+
+.step-content{
+    float: none;
+    max-width: 100%;
+    margin-left: 0;
+}
+    
+    .black-layer-2{
+        padding: 50px 10px;
+    }
+
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   book-a-mentor page
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.mentor-box{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.mentor-name{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.mentor-name span{
+    font-size: 14px;
+}
+.mentor-post{
+    font-size: 20px;
+    color: #0054a5; 
+    margin: 20px 0;
+}
+
+.mentor-post span{
+    color: #000 ;
+    font-size: 14px;
+}
+.available-time{
+    font-size: 20px;
+    color: #0054a5; 
+    margin: 20px 0;
+}
+
+.available-time span{
+    color: #000 ;
+    font-size: 14px;
+}
+.book-now-btn{
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    background-color: #d00d2d;
+    color: #f1b30e;
+    border-radius: 30px;
+    max-width: 200px;
+    margin: 44px auto;
+}
+
+
+.book-now-btn:hover{
+    background-color: #ff0029;
+    color: #f1b30e;
+}
+
+.black-layer-3{
+    background-color: rgba(0,0,0,0.6);
+    padding: 50px 20px 1px;
+}
+
+.black-layer-3 h1{
+    font-size: 42px;
+    color: #e41a1a;
+}
+.black-layer-3 hr{
+    border-color: #e41a1a;
+}
+
+
+/*------------------------------------------------------------
+                        media queries
+------------------------------------------------------------*/
+
+
+@media (max-width:1199px){
+
+.mentor-name{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.mentor-post{
+    font-size: 20px;
+    color: #0054a5; 
+    margin: 20px 0;
+}
+.available-time{
+    font-size: 20px;
+    color: #0054a5; 
+    margin: 20px 0;
+}
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                       registration page
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.pink-layer{
+    background-color: rgba(208, 13, 45,0.9);
+}
+
+.submit-btn{
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    background-color: #d00d2d;
+    color: #f1b30e;
+    border-radius: 30px;
+    min-width: 200px;
+    margin: 44px auto;
+}
+
+.submit-btn:hover{
+    background-color: #ff0029;
+    color: #f1b30e;
+}
+
+
+.white-layer{
+    background-color: #fff;
+    padding: 50px 20px 1px;
+}
+
+.white-layer input{
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 0;
+}
+
+.white-layer h1{
+    font-size: 42px;
+    color: #e41a1a;
+}
+.white-layer hr{
+    border-color: #e41a1a;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #ebebeb;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                       product page
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.pink-layer{
+    background-color: rgba(208, 13, 45,0.9);
+}
+
+.products hr{
+    border-color: #fff;
+    clear: both;
+}
+
+.products h1{
+    color: #fff;
+    font-size: 42px;
+    float: left;
+}
+
+.buy-now-btn{
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    background-color: #d00d2d;
+    color: #f1b30e;
+    border-radius: 30px;
+    min-width: 120px;
+    margin: 10px auto 0;
+    float: right;
+}
+
+.buy-now-btn:hover{
+    background-color: #ff0029;
+    color: #f1b30e;
+}
+
+.product-price{
+    line-height: 44px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 24px;
+    color: #00559e;
+}
+
+.product-box{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.product-box img{
+    width: 100%;
+}
+
+.categories{
+    float: right;
+    font-size: 20px;
+    color: #fff !important;
+    line-height: 54px;
+    display: inline-block;
+}
+
+
+.categories i{
+    font-size: 28px;
+}
+
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.dropdown-menu{
+    left: initial !important;
+    right: 0 !important;
+    margin-top: 15px;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    min-width: 300px;   
+    text-align: right !important;
+    background-clip: initial !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #f9e011 !important;
+    color: #000 !important;
+}
