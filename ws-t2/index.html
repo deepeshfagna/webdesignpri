@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GoDiner</title>
+    <meta name="description" content="GoDiner and Bluetooth Beacon Tech are transforming the way friends pick where to go, what to order, and how to pay for their fun. Your experience at your favorite restaurants and venues just got a lot more fun – with all the power right at your fingertips!">
+    <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/owl.theme.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+	 fbbutton = new Image(); 
+	 fbbutton.src="images/ftr_ic_fb_hover.png";
+	 twitterbutton = new Image(); 
+	 twitterbutton.src="images/ftr_ic_twitter_hover.png";
+	 gplusbutton = new Image(); 
+	 gplusbutton.src="images/ftr_ic_gplus_hover.png";
+	</script>
+	<script type="text/javascript" src="js/retina.js"></script>
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+	<div id="headerwrap" style="position:relative;">
+    	<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand hidden-xs hidden-sm visible-md visible-lg" href=""><img src="images/logo.png" class="img-responsive" alt=""></a>
+              <a class="navbar-brand visible-xs visible-sm hidden-md hidden-lg logostyle" href=""></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#howitworks">How It Works</a></li>
+                <li><a href="venues.html">Venues</a></li>
+                <!--<li><a href="#">Blog</a></li>-->
+                <li><a href="contactus.html">Contact</a></li>
+              </ul>
+            </div> 
+        </div>
+		<div class="container">
+			<div class="row centered">
+				<div class="col-md-12">
+                	<div style="padding:200px 0 50px 0;">
+                	<div class="wow fadeInUp">
+                    	<div class="logobanner"></div>
+                    </div>
+                    </div>
+                    <p>GoDiner is the complete app for hospitality that uses Bluetooth Beacon technology!</p> <p>Customers can now control their experience by connecting to their table to place orders, call for service, pay and more!</p>
+				</div>
+            </div>
+            <!--<div class="row centered">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+					<a href="#" class="btn btn-info btn-lg" style="-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;background:url(images/transparent.png) repeat; border:1px solid #fff;font-weight:400;font-size:18px;margin:20px 0 0 0;padding:10px 40px;"> Locations </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-info btn-lg" style="-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;background:url(images/transparent.png) repeat; border:1px solid #fff;font-weight:400;font-size:18px;margin:20px 0 0 0;padding:10px 20px;"> For Merchants </a>
+                </div>
+                <div class="col-md-3"></div>
+            </div>-->
+            <div class="row centered">
+                <div class="col-md-12">
+                    <a href="#" class="btn btn-info btn-lg" style="-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;background:url(images/transparent.png) repeat; border:1px solid #fff;font-weight:400;font-size:18px;margin:20px 0 0 0;padding:10px 20px;"> For Venues </a>
+                </div>
+            </div>
+            <br /><br />
+            <p>Download the FREE app</p>
+            <div class="row centered">
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-md-4 col-lg-3"> 
+                    <a href="#" class="btn btn-info btn-lg wow fadeInLeft" style="-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius:100px;background-color:#0097c9;border:none;font-weight:400;font-size:24px;margin:20px 0 0 0;padding:0px 70px 0 20px;text-align:left;"><i class="fa fa-android pull-left" style="padding:15px 0;font-size:44px;"></i> <span style="font-size:14px;">Get it on</span> <br />GOOGLE PLAY</a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#" class="btn btn-info btn-lg wow fadeInRight" style="-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius:100px;background-color:#0097c9;border:none;font-weight:400;font-size:24px;margin:20px 0 0 0;padding:0px 70px 0 20px;text-align:left;cursor:default;"><i class="fa fa-apple pull-left" style="padding:15px 0;font-size:44px;"></i> <span style="font-size:14px;">Coming Soon! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <br />APP STORE</a> 
+				</div>
+                <div class="col-md-2 col-lg-3"></div>
+			</div>
+            <br /><br />
+            
+            <!-- row -->
+		</div><!-- container -->
+	</div><!-- headerwrap -->
+	
+    <div id="howitworks">
+		<div class="container">
+        	<div class="row centered">
+                <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                    <h1>How It Works</h1>
+                    <br />
+                    <p>When you’re getting ready to head out, whether you’re treating yourself to something special, or going out with friends, you can use the GoDiner App to make reservations, check menus, read reviews and even decide on which venue you want to go to by popular vote.</p><br />
+                    <p>Now you arrive at your chosen destination...</p><br /><br />
+                </div>
+            </div>
+            <div class="row centered">
+                <div class="col-md-6 col-lg-6 wow fadeInLeft">
+                	<img src="images/venues.png">
+                    <h2>Table Service</h2>
+                    <br />
+                    <p>By connecting to your table via Beacon technology, the GoDiner app knows which venue’s menu to load and what table you are sitting at – so the staff know exactly where you are for service. You may now order what you want, when you want it or call a waiter directly to your table. Total control is now in your hands!</p>
+                </div>
+                <div class="col-md-6 col-lg-6 wow fadeInRight">
+                	<img src="images/notable.png">
+                    <h2>No Table Service? No Problem!</h2>
+                    <br />
+                    <p>If a GoDiner venue does not offer the beacon table service feature, you can still open a tab and place orders. With no table service offered – when your order has been prepared, staff will send you a “Pick Up” notification with your tab number to present upon collection. You can continue to run your tab and simply pay the bill when you are ready to leave. No more queues!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+	<div id="simplesteps">
+		<div class="container-fluid">
+            <div class="row centered">
+				<h1>Simple Steps</h1>
+            </div>
+            
+            <div class="row centered">
+				<div class="col-md-3 col-lg-3">
+                	<br /><br /><br />
+                	<div class="mobile-top">
+                    	<p class="simplestepnumber">1</p>
+                        <p>Download and create your account</p>
+                    </div>
+                    <img src="images/mobile1.png" class="img-responsive wow fadeInLeft" style="display:block;margin:0 auto;">
+                </div>
+                <div class="col-md-3 col-lg-3">
+                	<br /><br /><br />
+                    <div class="mobile-top">
+                    	<p class="simplestepnumber">2</p>
+                        <p>Arrive at your venue and connect to your table</p>
+                    </div>
+                    <img src="images/mobile2.png" class="img-responsive wow fadeInLeft" style="display:block;margin:0 auto;">
+                </div>
+                <div class="col-md-3 col-lg-3">
+                	<br /><br /><br />
+                    <div class="mobile-top">
+                    	<p class="simplestepnumber">3</p>
+                        <p>Order away or ask for service</p>
+                    </div>
+                    <img src="images/mobile3.png" class="img-responsive wow fadeInRight" style="display:block;margin:0 auto;">
+                </div>
+                <div class="col-md-3 col-lg-3">
+                	<br /><br /><br />
+                	<div class="mobile-top">
+                    	<p class="simplestepnumber">4</p>
+                        <p>Pay directly with PayPal or request your bill</p>
+                    </div>
+                    <img src="images/mobile4.png" class="img-responsive wow fadeInRight" style="display:block;margin:0 auto;">
+                </div>
+            </div>
+		<!-- row -->
+		</div>
+    </div>
+    <div id="youtubevideo">
+		<div class="container">
+            <div class="row centered">
+				 <div class="col-md-2"></div>
+                 <div class="col-md-8">
+                   <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">	
+                   		<iframe class="embed-responsive-item" width="100%" src="https://www.youtube.com/embed/hGkUPtHxbAg" frameborder="0" allowfullscreen></iframe>
+                   </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+		<!-- row -->
+		</div>
+    </div>
+    <div id="appfeatures">
+		<div class="container-fluid">
+            <div class="row centered">
+				 <div class="col-md-3 col-lg-3 hidden-sm hidden-xs wow fadeInLeft" style="padding-left:0 !important;">
+                 	<div style="background-color:#09F;">
+                    	<div style="position:relative;left:50%;padding:100px 0 100px 0;">
+                        	<img src="images/twosetmobile.png" class="img-responsive ">
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-8 col-lg-7 hidden-sm hidden-xs" style="text-align:left;">
+                   <div style="padding-left:25%;">
+                   		<h2>App Features</h2>
+                   		<div class="ftr_list" style="margin-top:70px;">
+                        	<span class="ftr_icon pull-left" style="background-color:#de3e60;"><img src="images/ic-seamlessorder.png"></span>
+                            <h3>Seamless Ordering</h3>
+                            <p>Customers can now order directly through to the venue in their own time frame by connecting to their table and completely controlling their experience.</p>
+                        </div>
+                        <div class="ftr_list">
+                        	<span class="ftr_icon pull-left" style="background-color:#deaf3e;"><img src="images/ic-socialreservation.png"></span>
+                            <h3>Social Reservations</h3>
+                            <p>Is a unique function that facilitates a vote between friends on where and when a reservation is made, making organising an occasion of any size, quick and easy.</p>
+                        </div>
+                        <div class="ftr_list">
+                        	<span class="ftr_icon pull-left" style="background-color:#5d79c9;"><img src="images/ic-callofservices.png"></span>
+                            <h3>Call for Service</h3>
+                            <p>Should a customer require attention, a simple touch of the 'Table Service' button on the GoDiner App will send a service request to notify staff for the need of attention. This feature resembles that found on in-flight services.</p>
+                        </div>
+                        <div class="ftr_list">
+                        	<span class="ftr_icon pull-left" style="background-color:#5ac466;"><img src="images/ic-analytics.png"></span>
+                            <h3>Wait Time Estimates</h3>
+                            <p>The GoDiner App also offers a wait time estimate of how long it may take to prepare your order. This is perfect for pre-ordering and pick-ups.
+</p>
+                        </div>
+                        <div class="ftr_list">
+                        	<span class="ftr_icon pull-left" style="background-color:#cc9e46;"><img src="images/ic-pushmarketing.png"></span>
+                            <h3>Push Notifications</h3>
+                            <p>By simply selecting a GoDiner venue as one of your favorites, you instantly become eligible to receive special offers, discounts or news about upcoming events. </p>
+                        </div>
+                        <div class="ftr_list">
+                        	<span class="ftr_icon pull-left" style="background-color:#42b5b9;"><img src="images/ic-loyalty.png"></span>
+                            <h3>Store Payment Receipts</h3>
+                            <p>GoDiner has a built-in receipt book that allows you to keep track of all in-app payments in one place. </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                            	<div class="stayconnected-ftr">
+                                    <ul>
+                                    	<li><img src="images/havequestions.png" class="img-responsive" width="199"></li>
+                                        <li class="fbicon"><a target="_blank" href="https://www.facebook.com/GoDinerApp"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="twittericon"><a target="_blank"  href="https://twitter.com/GoDinerApp"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="instagram"><a target="_blank"  href="https://instagram.com/godinerapp/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li class="pinterest"><a target="_blank" href="https://www.pinterest.com/GoDinerApp/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                        <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCZiSI6jm-OCpgmV071Ul3eA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                        <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/company/godinerapp"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-1 col-lg-2 hidden-sm hidden-xs">
+                   
+                </div>
+            </div>
+            
+            <div class="row centered">
+                 <div class="col-sm-12 col-xs-12 hidden-md hidden-lg" style="text-align:left;">
+                   <h2>App Features</h2>
+                   		<div class="ftr_list" style="margin-top:50px;">
+                           	<div class="ftr-iconm">
+                            	<span class="ftr_icon pull-left" style="background-color:#de3e60;"><img src="images/ic-seamlessorder.png" width="28" height="28"></span>
+                           	</div>
+                            <div class="ftr-text">
+                            	<h3>Seamless Ordering</h3>
+                            <p>Customers can now order directly through to the venue in their own time frame by connecting to their table and completely controlling their experience.</p>
+                            </div>
+                        </div>
+                        <div class="ftr_list">
+                        	<div class="ftr-iconm">
+                            	<span class="ftr_icon pull-left" style="background-color:#deaf3e;"><img src="images/ic-socialreservation.png" width="28" height="28"></span>
+                            </div>
+                            <div class="ftr-text">
+                            	<h3>Social Reservations</h3>
+                            <p>Is a unique function that facilitates a vote between friends on where and when a reservation is made, making organising an occasion of any size, quick and easy.</p>
+                            </div>
+                        </div>
+                        <div class="ftr_list">
+                        	<div class="ftr-iconm">
+                        		<span class="ftr_icon pull-left" style="background-color:#5d79c9;"><img src="images/ic-callofservices.png" width="28" height="28"></span>
+                            </div>
+                            <div class="ftr-text">
+                            	<h3>Call for Service</h3>
+                            <p>Should a customer require attention, a simple touch of the 'Table Service' button on the GoDiner App will send a service request to notify staff for the need of attention. This feature resembles that found on in-flight services.</p>
+                            </div>
+                        </div>
+                        <div class="ftr_list">
+                        	<div class="ftr-iconm">
+                        		<span class="ftr_icon pull-left" style="background-color:#5ac466;"><img src="images/ic-analytics.png" width="28" height="28"></span>
+                            </div>
+                            <div class="ftr-text">
+                            	<h3>Wait Time Estimates</h3>
+                            <p>The GoDiner App also offers a wait time estimate of how long it may take to prepare your order. This is perfect for pre-ordering and pick-ups.
+</p>
+							</div>
+                        </div>
+                        <div class="ftr_list">
+                        	<div class="ftr-iconm">
+                        		<span class="ftr_icon pull-left" style="background-color:#cc9e46;"><img src="images/ic-pushmarketing.png" width="28" height="28"></span>
+                            </div>
+                            <div class="ftr-text">
+                            	<h3>Push Notifications</h3>
+                            <p>By simply selecting a GoDiner venue as one of your favorites, you instantly become eligible to receive special offers, discounts or news about upcoming events. </p>
+                            </div>
+                        </div>
+                        <div class="ftr_list">
+                        	<div class="ftr-iconm">
+                            	<span class="ftr_icon pull-left" style="background-color:#42b5b9;"><img src="images/ic-loyalty.png" width="28" height="28"></span>
+                            </div>
+                            <div class="ftr-text">
+                            	<h3>Store Payment Receipts</h3>
+                            <p>GoDiner has a built-in receipt book that allows you to keep track of all in-app payments in one place. </p>
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+		<!-- row -->
+		</div>
+    </div>
+	<div id="testimonial">
+		<div class="container">
+			<div class="row centered">
+				   
+                   <div id="owl-demo" class="owl-carousel owl-theme">
+                        <div class="item">
+                           <img src="images/propic1.png" style="max-width:100% !important;height:auto !important;">	
+                           <div style="font-weight:300;color:#FFF;font-size:18px;margin:40px 10%;clear:both;background:url(images/testimonialpoint.png) no-repeat;">
+                            <p style="padding-left:80px;">"Lorem Ipsum dolor sit amet the consectetur adipiscing elit. Integer n nec odio. Present libero
+Sed cursus ante dapibus diam. Sed nisi nulla quis" - Vlad M.</p>
+                            </div>
+                       </div>
+                       <div class="item">
+                           <img src="images/propic2.png" style="max-width:100% !important;height:auto !important;">	
+                           <div style="font-weight:300;color:#FFF;font-size:18px;margin:40px 10%;clear:both;background:url(images/testimonialpoint.png) no-repeat;">
+                            <p style="padding-left:80px;">"Lorem Ipsum dolor sit amet the consectetur adipiscing elit. Integer n nec odio. Present libero
+Sed cursus ante dapibus diam. Sed nisi nulla quis" - Jakub P. </p>
+                            </div>
+                       </div>
+                       <div class="item">
+                           <img src="images/propic3.png" style="max-width:100% !important;height:auto !important;">	
+                           <div style="font-weight:300;color:#FFF;font-size:18px;margin:40px 10%;clear:both;background:url(images/testimonialpoint.png) no-repeat;">
+                            <p style="padding-left:80px;">
+"Lorem Ipsum dolor sit amet the consectetur adipiscing elit. Integer n nec odio. Present libero
+Sed cursus ante dapibus diam. Sed nisi nulla quis" - Adriano F. </p>
+                            </div>
+                       </div>
+                   </div>
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+    <div id="contact-section">
+		<div class="container">
+			<div class="row centered">
+            	<h1>Want GoDiner at your favorite hangout?</h1>
+				<div class="form-container">
+					<form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+                    
+                        <div class="controls">
+                    
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Venue Name</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" >
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_talk">Who we should talk to (Optional)</label>
+                                        <input id="form_talk" type="text" name="talk" class="form-control" >
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_location">Venue Location</label>
+                                        <input id="form_location" type="text" name="location" class="form-control" >
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_yourname">Your Name (Optional)</label>
+                                        <input id="form_yourname" type="text" name="yourname" class="form-control"  >
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Your Email (Optional)</label>
+                                        <input id="form_email" type="email" name="email" class="form-control">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">How would GoDiner improve this venue?  (Optional)</label>
+                                        <textarea id="form_message" name="message" class="form-control" rows="4" ></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send contact-send-btn" value="Send message">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                    </form>                
+                </div>				   
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+	<div id="downloadapp">
+		<div class="container">
+        	<div class="row centered">
+            	<h2>Download the FREE app</h2>
+                <!-- <p class="wow fadeInUp"><a href="pricing.php" class="btn btn-info " style="-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;font-weight:400;font-size:27px;line-height:38px;margin:20px 0 0 0;border:1px solid #fff;padding-left:5%;padding-right:5%;background-color:#808080; "> Download Now </a></p>-->
+            </div>
+            <div class="row centered" style="margin-bottom:50px;">
+                <div class="col-md-3"></div>
+                <div class="col-md-3"> 
+                    <a href="#" class="btn btn-info btn-lg wow fadeInLeft" style="-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius:4px;background-color:#0097c9;border:none;font-weight:400;font-size:24px;margin:20px 0 0 0;padding:0 60px 0 15px;text-align:left;">
+                    	<i class="fa fa-android pull-left" style="padding:6px 0;font-size:38px;"></i>
+                        <p style="font-size:14px;margin-bottom:0px;">Get it on</p> <p>GOOGLE PLAY</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-info btn-lg wow fadeInRight" style="-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius:4px;background-color:#0097c9;border:none;font-weight:400;font-size:24px;margin:20px 0 0 0;padding:0 100px 0 15px;text-align:left;cursor:default;">
+                    	<i class="fa fa-apple pull-left" style="padding:6px 0;font-size:38px;"></i>
+                        <p style="font-size:14px;margin-bottom:0px;">Coming Soon!</p> <p>APP STORE</p>
+                    </a> 
+				</div>
+                <div class="col-md-3"></div>
+			</div>
+            <div class="row centered">
+                <img src="images/phone-cross.png" class="img-responsive wow fadeInUp" style="margin:0 auto;">
+            </div>
+        </div>
+    </div>
+	
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+            	<div class="col-md-12 hidden-xs hidden-sm">
+                    <div class="stayconnected">
+                        <ul>
+                            <li class="fbicon"><a target="_blank" href="https://www.facebook.com/GoDinerApp"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="twittericon"><a target="_blank"  href="https://twitter.com/GoDinerApp"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="instagram"><a target="_blank"  href="https://instagram.com/godinerapp/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li class="pinterest"><a target="_blank" href="https://www.pinterest.com/GoDinerApp/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCZiSI6jm-OCpgmV071Ul3eA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/company/godinerapp"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <br /><br /><br />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+                    <div class="stayconnectedm">
+                        <ul>
+                            <li class="fbiconm"><a target="_blank" href="https://www.facebook.com/GoDinerApp"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="twittericonm"><a target="_blank"  href="https://twitter.com/GoDinerApp"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="instagramm"><a target="_blank"  href="https://instagram.com/godinerapp/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li class="pinterestm"><a target="_blank" href="https://www.pinterest.com/GoDinerApp/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li class="youtubem"><a target="_blank" href="https://www.youtube.com/channel/UCZiSI6jm-OCpgmV071Ul3eA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li class="linkedinm"><a target="_blank" href="http://www.linkedin.com/company/godinerapp"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <br /><br /><br />
+                    </div>
+                </div>
+            </div>
+            <div class="row centered">    
+				<div class="col-sm-12 hidden-xs">
+                	<div class="footerlink_top">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#howitworks">How It Works</a></li>
+                            <li><a href="venues.html">Venues</a></li>
+                            <!--<li><a href="#">Blog</a></li>-->
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <br /><br />
+                    </div>
+                </div>
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                	<div class="footerlink_topm">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#howitworks">How It Works</a></li>
+                            <li><a href="venues.html">Venues</a></li>
+                            <!--<li><a href="#">Blog</a></li>-->
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <br /><br />
+                    </div>
+                </div>
+            </div>
+            <div class="row centered">    
+                <div class="col-md-12">
+                	<div class="footerlogo"></div>
+                </div>
+			</div>
+            <div class="row centered" style="border-top:1px solid #4b899d;padding-top:25px;margin-top:40px;">
+            	<p>© 2016 GoDiner. All Rights Reserved.</p>
+            </div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    <!--<script type="text/javascript">
+    	$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('.navbar');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.navbar').css('background-color', 'rgba(255,255,255,1)');
+       } else {
+          $('.navbar').css('background-color', 'transparent');
+       }
+   });
+});
+    </script>-->
+    <script src="js/wow.min.js"></script>
+	<script>
+     new WOW().init();
+    </script>
+    <script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function() {
+		$("#owl-demo").owlCarousel({
+		navigation : true, // Show next and prev buttons
+		slideSpeed : 700,
+		autoPlay: true,
+		goToFirst: true,
+		navigation: false,
+		paginationSpeed : 800,
+		items : 1, 
+		itemsDesktop : false,
+		itemsDesktopSmall : false,
+		itemsTablet: false,
+		itemsMobile : false
+		});
+		});
+	</script>
+    <script>
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+</script>
+<!-- Smooth Scroll---->
+   <script>
+   $(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html, body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		  }
+		}
+	  });
+	});
+   </script>
+<!-- Smooth Scroll End---->
+  </body>
+</html>
